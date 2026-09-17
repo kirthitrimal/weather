@@ -1,7 +1,7 @@
 degree=int(input("Enter the degree:"))
-if degree <=20:
+if degree <=26:
     print("Cold weather")
-elif degree >20 and degree <=38:
-    print("Normal weather")
+elif degree >26 and degree <=40:
+    print("Normal weather stay fit")
 else:
-    print("Hot! Weather")        
+    print("Hot! Weather! drink some water")        
